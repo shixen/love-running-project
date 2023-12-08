@@ -1,3 +1,6 @@
+/* google fonts imporn*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300;400;500;600;700&display=swap');
+
 /*Astrisk wildcard selector to override defult styles added by the browser*/
 *{
     padding:0;
@@ -11,6 +14,7 @@ body{
     flex-direction: column;
     /* generic project styles */
     color: #3a3a3a;
+    font-family: 'Lato', sans-serif;
 }
 
 
