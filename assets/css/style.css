@@ -153,6 +153,16 @@ main{
     align-items: center;
     justify-content: center;
 }
+
+/* Gallery page */
+#photos img {
+    width: 100%;
+    line-height: 1em;
+}
+
+#photos {
+    line-height: 0;
+}
    
 /* footer */
 #social-networks{
@@ -167,6 +177,13 @@ main{
     padding: 5%;
     color: #3a3a3a;
 }
+@media screen and (min-width: 576px){
+     #photos {
+        column-count: 2;
+     }
+}
+
+
 /* media query tablets and larger 768px and more*/
 @media screen and (min-width: 768px){
     /* header */
